@@ -1,0 +1,11 @@
+Xamarin build system:
+
+Will build iOS and Android targets, package APK and IPA files, run unit tests, upload to an artifact server, and submit to Appstore Connect and Google Play.
+
+To run:
+
+First, edit xamarinbuild.conf, then run
+
+./Build.sh <version> <build_code> [configuration]
+
+Configuration is optional, it will default to Release
